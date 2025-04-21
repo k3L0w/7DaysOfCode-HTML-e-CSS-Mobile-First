@@ -1,0 +1,95 @@
+.container__titulo {
+    background-color: var(--background-color);
+    width: 360px;
+    height: 42px;
+    
+}
+
+.container__titulo-dia {
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    background-color: var(--background-color);
+    padding: 10px;
+}
+
+.day__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.container__perfil {
+    width: 328px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container__perfil-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.container__perfil__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container__perfil__nome-medico {
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--dark-grey-color);
+}
+
+.container__perfil__tipo-consulta {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    color: var(--light-grey-color);
+}
+
+.container__perfil__hora-consulta {
+    margin-top: 20px;
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    color: var(--dark-grey-color);
+}
+
+.container__perfil__ligar-por-video {
+    margin-top: 10px;
+    width: 139px;
+    height: 48px;
+    background-color: var(--light-orange-color);
+    border-radius: 8px;
+    color: var(--background-color);
+    border: none;
+}
+
+.container__perfil__ligar-por-audio {
+    width: 139px;
+    height: 48px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    border: none;
+}
+
+.container__perfil__ver-endereco {
+    width: 296px;
+    height: 48px;
+    background-color: var(--light-blue-color);
+    border-radius: 8px;
+    color: var(--background-color);
+    border: none;
+}
