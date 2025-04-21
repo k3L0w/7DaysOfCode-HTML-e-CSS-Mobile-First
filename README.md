@@ -8,6 +8,7 @@
 [![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](https://github.com/k3L0w/7DaysOfCode-HTML-e-CSS-Mobile-First)  
 [![Licença](https://img.shields.io/badge/licença-MIT-blue)](./LICENSE)  
 [![Figma](https://img.shields.io/badge/design-Figma-red)](FIGMA_URL)
+[![Alura](https://img.shields.io/badge/Alura-blue)](FIGMA_URL)
 
 ---
 
