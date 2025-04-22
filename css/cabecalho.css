@@ -1,7 +1,8 @@
 .header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 360px;
     padding: 40px;
     gap: 20px;
 }
@@ -14,7 +15,6 @@
     gap: 20px;
     width: 250px;
     height: 57px;
-    
 }
 
 .header__perfil--img-principal {
