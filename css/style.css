@@ -9,6 +9,15 @@
     --dark-grey-color: #464646;
     --light-orange-color:#FFB050;
     --light-blue-color: #4894FF;
+    --dark-red: #8B0000;
+
+    /* hospital colors */
+    --hospital-color-1: #22092C;
+    --hospital-color-2: #872341;
+    --hospital-color-3: #BE3144;
+    --hospital-color-4: #F05941;
+    /* --------------- */
+        
 }
 
 body {
@@ -18,3 +27,18 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: var(--background-color);
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+

@@ -5,6 +5,12 @@
     
 }
 
+hr {
+    background-color: var(--hospital-color-1);
+    height: 1.7px;
+    border-radius: 7px;
+}
+
 .container__titulo-dia {
     font-family: var(--font-principal);
     font-weight: 700;
@@ -12,6 +18,7 @@
     line-height: 160%;
     background-color: var(--background-color);
     padding: 10px;
+    color: var(--hospital-color-1);
 }
 
 .day__container {
@@ -21,6 +28,7 @@
     padding: 10px;
     gap: 20px;
     flex-direction: column;
+    background-color: var(--background-color);
 }
 
 .container__perfil {
@@ -28,6 +36,15 @@
     height: 170px;
     border-radius: 10px;
     padding: 20px;
+    border: 0.7px solid var(--hospital-color-1);
+}
+
+.marcos {
+    width: 328px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0.7px solid var(--hospital-color-1);
 }
 
 .container__perfil-img {
@@ -38,7 +55,7 @@
 
 .container__perfil__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     gap: 20px;
 }
 
@@ -47,7 +64,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 160%;
-    color: var(--dark-grey-color);
+    color: var(--hospital-color-1);
 }
 
 .container__perfil__tipo-consulta {
@@ -55,7 +72,12 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 160%;
-    color: var(--light-grey-color);
+    color: var(--hospital-color-3);
+    
+}
+
+.container__perfil__chat {
+    margin: 0px 0px 0px 100px;
 }
 
 .container__perfil__hora-consulta {
@@ -64,14 +86,14 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 160%;
-    color: var(--dark-grey-color);
+    color: var(--hospital-color-4);
 }
 
 .container__perfil__ligar-por-video {
     margin-top: 10px;
     width: 139px;
     height: 48px;
-    background-color: var(--light-orange-color);
+    background-color: var(--hospital-color-2);
     border-radius: 8px;
     color: var(--background-color);
     border: none;
@@ -81,6 +103,7 @@
     width: 139px;
     height: 48px;
     background-color: var(--background-color);
+    color: var(--hospital-color-1);
     border-radius: 8px;
     border: none;
 }
@@ -88,8 +111,9 @@
 .container__perfil__ver-endereco {
     width: 296px;
     height: 48px;
-    background-color: var(--light-blue-color);
+    background-color: var(--hospital-color-4);
     border-radius: 8px;
     color: var(--background-color);
     border: none;
+    margin-top: 10px;
 }

@@ -1,12 +1,23 @@
-.header__container {
+.body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--background-color);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 360px;
     padding: 40px;
     gap: 20px;
+    background-color:var(--hospital-color-1);
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
 }
-
 
 .header__perfil {
     display: flex;
@@ -23,6 +34,7 @@
     border-radius: 50%;
     width: 57px;
     height: 57px;
+    border: 2.7px solid var(--background-color);
 }
 
 .header__perfil-saudacao {
@@ -30,12 +42,12 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 160%;
-    color: var(--dark-grey-color);
+    color: var(--hospital-color-4);
 }
 
 .header__perfil--info-consultas {
     font-size: 14px;
     line-height: 160%;
     font-weight: 400;
-    color: var(--light-grey-color);
+    color: var(--background-color);
 }
