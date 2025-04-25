@@ -1,24 +1,78 @@
 .rodape {
     display: flex;
     justify-content: center;
+    gap: 40px;
     padding: 20px;
-    gap: 10px;
     background-color: var(--background-color);
-}
+  }
 
-.rodape__icone {
-    height: 18px;
-}
+  .rodape ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+  }
 
-.rodape__icone__date:hover {
-    content: url('assets/date_range-hover.png');
+  .rodape__item {
+    position: relative;
+    text-align: center;
     cursor: pointer;
-  
-}
+  }
 
-.rodape__texto:hover {
+  .rodape__icone {
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+
+  .rodape__texto {
+    font-size: 14px;
     color: var(--hospital-color-1);
-    font-weight: 600;
-    cursor: pointer;
-    
-}
+    margin-top: 6px;
+    transition: color 0.3s ease;
+  }
+
+  .rodape__item:hover .rodape__icone {
+    transform: scale(1.1);
+  }
+
+  .rodape__item:hover .rodape__texto {
+    color: var(--hospital-color-2);
+  }
+
+  .menu-opcoes {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    animation: fadeInUp 0.3s ease forwards;
+    z-index: 10;
+  }
+
+  .rodape__item:hover .menu-opcoes {
+    display: flex;
+  }
+
+  .menu-opcoes span {
+    font-size: 12px;
+    color: var(--hospital-color-1);
+    white-space: nowrap;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateX(-50%) translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+  }

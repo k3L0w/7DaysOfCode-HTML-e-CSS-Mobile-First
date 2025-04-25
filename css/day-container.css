@@ -23,7 +23,7 @@ hr {
 
 .day__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     gap: 20px;
