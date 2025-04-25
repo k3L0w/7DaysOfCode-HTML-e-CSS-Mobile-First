@@ -1,0 +1,24 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    background-color: var(--background-color);
+}
+
+.rodape__icone {
+    height: 18px;
+}
+
+.rodape__icone__date:hover {
+    content: url('/assets/date_range-hover.png');
+    cursor: pointer;
+  
+}
+
+.rodape__texto:hover {
+    color: var(--hospital-color-1);
+    font-weight: 600;
+    cursor: pointer;
+    
+}

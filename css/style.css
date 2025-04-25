@@ -1,13 +1,14 @@
 @import url('./reset.css');
 @import url('./cabecalho.css');
 @import url('./day-container.css');
+@import url('./rodape.css');
 
 :root {
     --font-principal: "Montserrat", sans-serif;
     --background-color: #FFFFFF;
     --light-grey-color: #A3A3A3;
-    --dark-grey-color: #464646;
-    --light-orange-color:#FFB050;
+    --dark-grey-color:  #464646;
+    --light-orange-color: #FFB050;
     --light-blue-color: #4894FF;
     --dark-red: #8B0000;
 
@@ -16,6 +17,21 @@
     --hospital-color-2: #872341;
     --hospital-color-3: #BE3144;
     --hospital-color-4: #F05941;
+    --hospital-color-5: #F2A900;
+    --hospital-color-6: #F2D600;
+
+    /* Nome da Cor	Hex	Descrição */
+    --sangue-escuro: #8B0000;       /* Tom profundo de sangue coagulado */
+    --sangue-vivo: #B22222;         /* Vermelho vibrante, sangue recém-oxigenado */
+    --vermelho-vinho: #7B1E1E;      /* Tom fechado, elegante */
+    --vermelho-oxidado: #A40000;    /*Tom forte, rico e marcante */
+    --rosa-hospitalar: #F8D7DA;     /* Tom suave para fundo ou alerta leve */
+    --cinza-sério: #4B4B4B;         /* Neutro escuro, ideal para textos */
+    --branco-médico: #FFFFFF;       /* Limpo, ideal para fundo */
+    --bege-suave: #FAF3F0;          /* Fundo claro aconchegante e confortável */
+    --vermelho-botão: #C62828;      /* Ideal para botões e chamadas de ação */
+    --coral-saudável: #FF6B6B;      /* Toque moderno e amigável */
+    
     /* --------------- */
         
 }
