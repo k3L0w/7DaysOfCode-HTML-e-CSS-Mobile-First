@@ -11,7 +11,7 @@
 }
 
 .rodape__icone__date:hover {
-    content: url('/assets/date_range-hover.png');
+    content: url('assets/date_range-hover.png');
     cursor: pointer;
   
 }
